@@ -14,6 +14,8 @@ export default async function RootLayout({
   children: React.ReactNode
 }) {
 
+  // updating 
+
   const pages = await getPages();
 
   return (
